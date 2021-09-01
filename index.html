@@ -58,17 +58,7 @@
         <!-- Герой -->
         <section class="hero section">
             <h1 class="hero-title container">Эффективные решения для вашего бизнеса</h1>
-            <button type="button" class="button-primary button" data-modal-open>Заказать услугу</button>
-            <div class="backdrop is-hidden" data-modal>
-                <div class="modal">
-                    <button class="button-close" data-modal-close>
-                        <svg class="close-back" width="18" height="18">
-                            <use href="./images/svg-images/close-black.svg"></use>
-                        </svg>
-                    </button>
-                </div>                
-            </div>
-            
+            <button type="button" class="button-primary button" data-modal-open>Заказать услугу</button>                        
         </section>
         
         <!-- Наша философия -->
@@ -120,12 +110,15 @@
                 <ul class="list-images list">
                     <li class="item">
                         <img src="./Images/keyboard.jpg" alt="Клавиатура" width="370">
+                        <p class="list-image-text">Десктопные приложения</p>
                     </li>
                     <li class="item">
                         <img src="./Images/notebook.jpg" alt="Ноутбук" width="370">
+                        <p class="list-image-text">Мобильные приложения</p>
                     </li>
                     <li class="item">
                         <img src="./Images/tablet.jpg" alt="Планшет" width="370">
+                        <p class="list-image-text">Дизайнерские решения</p>
                     </li>
                 </ul>            
             </section>        
@@ -401,6 +394,17 @@
             </div> 
         </div>
     </footer>
+
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button class="modal-close" type="button" data-modal-close>
+                <svg class="modal-close-icon" width="18" height="18">
+                    <use href="./images/svg-images/symbol-defs.svg#icon-close-black"></use>
+                </svg>
+                
+            </button>
+        </div>
+    </div>
 
     <script src="./js/modal.js"></script>
 </body>
